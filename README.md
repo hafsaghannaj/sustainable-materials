@@ -53,6 +53,18 @@ Quick Start
 3) Open the API:
    - `http://localhost:8000`
 
+Frontend (GitHub Pages)
+-----------------------
+The deployed site uses the production build copied to the repo root.
+To update it:
+1) Build the frontend:
+   - `cd frontend`
+   - `npm install`
+   - `npm run build`
+2) Copy the build output to repo root:
+   - `rsync -a dist/ ../`
+3) Commit and push.
+
 Health and Tasks
 ----------------
 - Healthcheck: `GET /health`

@@ -1,0 +1,186 @@
+.intelligent-assistant,
+.command-center,
+.advanced-data-table,
+.collaboration-environment,
+.professional-loading {
+  background: #fff;
+  border: 1px solid var(--color-gray-200);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: var(--space-6);
+}
+
+.intelligent-assistant .inference-panel {
+  border: 1px solid var(--color-gray-200);
+  border-radius: 16px;
+  padding: var(--space-4);
+  margin-bottom: var(--space-4);
+}
+
+.intelligent-assistant .insights-grid {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.insight-card {
+  border: 1px solid var(--color-gray-200);
+  border-radius: 12px;
+  padding: var(--space-3);
+  background: #f8fbfa;
+  text-align: left;
+}
+
+.insight-card.active {
+  border-color: var(--color-primary);
+  background: #f1fffb;
+}
+
+.command-center .global-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.command-center .dashboard-grid {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.command-center .grid-item {
+  border: 1px solid var(--color-gray-200);
+  border-radius: 16px;
+  padding: var(--space-4);
+  background: #fafbfc;
+}
+
+.command-center .col-span-4 {
+  grid-column: span 4;
+}
+
+.command-center .col-span-6 {
+  grid-column: span 6;
+}
+
+.command-center .col-span-12 {
+  grid-column: span 12;
+}
+
+.command-center .status-bar {
+  display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin-top: var(--space-6);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-gray-200);
+}
+
+.risk-heatmap {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.risk-title {
+  font-weight: 600;
+}
+
+.risk-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-2);
+}
+
+.risk-cell {
+  border-radius: 12px;
+  padding: var(--space-3);
+  display: grid;
+  gap: 6px;
+  min-height: 84px;
+}
+
+.risk-value {
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+
+.risk-label {
+  font-size: var(--text-sm);
+  color: var(--color-gray-700);
+}
+
+.risk-legend {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.legend-chip {
+  border: 1px solid var(--color-gray-200);
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: var(--text-xs);
+  background: #fff;
+}
+
+.advanced-data-table .table-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  justify-content: space-between;
+  margin-bottom: var(--space-4);
+}
+
+.advanced-data-table .table-row {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: var(--space-2);
+  padding: var(--space-2);
+  border-bottom: 1px solid var(--color-gray-200);
+}
+
+.advanced-data-table .table-cell {
+  font-size: var(--text-sm);
+}
+
+.collaboration-environment {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.collaboration-environment .monaco-editor {
+  height: 240px;
+  border: 1px solid var(--color-gray-200);
+  border-radius: 12px;
+}
+
+.professional-loading .neural-background {
+  position: relative;
+  height: 120px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #f2fffb, #f7f4ff);
+  margin-bottom: var(--space-4);
+  overflow: hidden;
+}
+
+.professional-loading .neural-node {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  animation: neural-pulse 2.4s ease-in-out infinite;
+}
+
+.professional-loading .progress-bar {
+  height: 8px;
+  background: var(--color-gray-200);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.professional-loading .progress-fill {
+  height: 100%;
+  background: var(--color-primary);
+}

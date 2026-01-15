@@ -1,0 +1,101 @@
+.portfolio {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.portfolio-hero {
+  background: linear-gradient(135deg, #f2fffb, #f7f4ff);
+  border: 1px solid var(--color-gray-200);
+  border-radius: 20px;
+  padding: var(--space-6);
+}
+
+.portfolio-section {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.portfolio-grid {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.portfolio-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: var(--space-4);
+  border: 1px solid var(--color-gray-200);
+}
+
+.diagram-lite {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  background: #f8fafc;
+  border: 1px solid var(--color-gray-200);
+  border-radius: 12px;
+  padding: var(--space-3);
+}
+
+.diagram-lite .step {
+  background: #fff;
+  border: 1px solid var(--color-gray-200);
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-size: var(--text-sm);
+}
+
+.diagram-lite .arrow {
+  color: var(--color-gray-600);
+  font-weight: 700;
+}
+
+.caption {
+  color: var(--color-gray-600);
+  font-size: var(--text-sm);
+}
+
+.diagram-card {
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid var(--color-gray-200);
+  padding: var(--space-4);
+}
+
+.diagram-canvas {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: var(--space-3);
+  border: 1px solid var(--color-gray-200);
+}
+
+.diagram-canvas svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.diagram-canvas .box rect {
+  fill: #f5f3ff;
+  stroke: #b8a7ff;
+  stroke-width: 2;
+}
+
+.diagram-canvas .box.highlight rect {
+  fill: #f7c5ff;
+  stroke: #a855f7;
+  stroke-width: 3;
+}
+
+.diagram-canvas text {
+  font-size: 14px;
+  fill: #1f2937;
+}
+
+.diagram-canvas .arrow {
+  fill: none;
+  stroke: #64748b;
+  stroke-width: 2;
+}

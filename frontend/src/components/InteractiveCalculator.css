@@ -1,0 +1,72 @@
+.carbon-calculator {
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid var(--color-gray-200);
+  padding: var(--space-6);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.calculator-header {
+  display: flex;
+  gap: var(--space-2);
+  align-items: center;
+}
+
+.calculator-controls {
+  display: grid;
+  gap: var(--space-4);
+  margin: var(--space-4) 0;
+}
+
+.input-group {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.input-group input,
+.input-group select {
+  width: 100%;
+}
+
+.input-value {
+  font-size: var(--text-sm);
+  color: var(--color-gray-600);
+}
+
+.results-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: var(--space-3);
+}
+
+.result-card {
+  border: 1px solid var(--color-gray-200);
+  border-radius: 14px;
+  padding: var(--space-3);
+  display: grid;
+  gap: 6px;
+}
+
+.result-value {
+  font-size: var(--text-lg);
+  font-weight: 700;
+}
+
+.scenarios-comparison {
+  margin-top: var(--space-6);
+}
+
+.scenarios-grid {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.scenario-card {
+  border: 1px solid var(--color-gray-200);
+  border-radius: 14px;
+  padding: var(--space-4);
+}
+
+.scenario-materials ul {
+  padding-left: 16px;
+}

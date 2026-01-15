@@ -1,0 +1,137 @@
+.carbon-label {
+  background: #fff;
+  border: 1px solid var(--color-gray-200);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  max-width: 520px;
+  padding: var(--space-8);
+}
+
+.carbon-label__header {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-4);
+  align-items: center;
+  margin-bottom: var(--space-6);
+}
+
+.carbon-label__title {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-lg);
+}
+
+.leaf-icon {
+  color: var(--color-primary);
+}
+
+.carbon-label__rating {
+  color: #fff;
+  padding: var(--space-2) var(--space-4);
+  border-radius: 12px;
+  text-align: center;
+  min-width: 92px;
+}
+
+.rating-letter {
+  display: block;
+  font-size: var(--text-2xl);
+  font-weight: 700;
+}
+
+.rating-text {
+  font-size: var(--text-xs);
+  opacity: 0.9;
+}
+
+.carbon-label__body {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.carbon-metric .metric-label {
+  font-size: var(--text-sm);
+  color: var(--color-gray-600);
+}
+
+.carbon-metric .metric-value {
+  font-size: var(--text-xl);
+  font-weight: 600;
+  margin-top: var(--space-1);
+}
+
+.metric-bar {
+  height: 8px;
+  background: var(--color-gray-200);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: var(--space-2);
+}
+
+.metric-bar__fill {
+  height: 100%;
+  border-radius: 999px;
+}
+
+.circularity-score {
+  display: grid;
+  place-items: center;
+  gap: var(--space-2);
+}
+
+.circularity-label {
+  font-size: var(--text-sm);
+  color: var(--color-gray-600);
+}
+
+
+.comparison-chart h4 {
+  margin: 0 0 var(--space-2) 0;
+  font-size: var(--text-base);
+}
+
+.comparison-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr auto;
+  gap: var(--space-2);
+  align-items: center;
+  margin-bottom: var(--space-2);
+}
+
+.comparison-bar {
+  position: relative;
+  height: 8px;
+  background: var(--color-gray-200);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.comparison-bar__industry {
+  position: absolute;
+  inset: 0;
+  background: var(--color-gray-300);
+}
+
+.comparison-bar__current {
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+}
+
+.comparison-percent {
+  font-size: var(--text-xs);
+  color: var(--color-gray-600);
+}
+
+.certifications {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+
+.carbon-label--small {
+  padding: var(--space-4);
+  max-width: 360px;
+}
